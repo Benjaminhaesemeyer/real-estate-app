@@ -11,9 +11,10 @@ app.use(express.static(path.join(__dirname, './public')));
 app.use(bodyParser.json()); // needed for angular requests
 
 /** ---------- EXPRESS ROUTES ---------- **/
-// not active routes yet
-// app.use('/rent', rentRoute);
-// app.use('/sale', saleRoute);
+
+app.use('/rent', rentRoute);
+
+app.use('/sale', saleRoute);
 
 /** ---------- GET INDEX HTML ---------- **/
 app.get('/', function(req, res) {
