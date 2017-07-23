@@ -21,7 +21,8 @@ app.get('/', function(req, res) {
 });
 
 /** -------- MONGOOSE CONNECTION --------**/
-var databaseUrl = 'mongodb://localhost:27017/antares';
+//targeting realestate db
+var databaseUrl = 'mongodb://localhost:27017/realestate';
 mongoose.connect(databaseUrl);
 
 mongoose.connection.on('connected', function() {
