@@ -1,7 +1,7 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
-// create the Schema
+// created the rentSchema
 var rentSchema = new Schema({
   rent: {type: Number},
   sqft: {type: Number},
@@ -9,4 +9,5 @@ var rentSchema = new Schema({
 });
 
 // export our model
+// talking with the rentals collection
 module.exports = mongoose.model('Rent', rentSchema, 'rentals');

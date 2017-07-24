@@ -1,7 +1,7 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
-// create the Schema
+// created the saleSchema
 var saleSchema = new Schema({
   cost: {type: Number},
   sqft: {type: Number},
@@ -9,4 +9,5 @@ var saleSchema = new Schema({
 });
 
 // export our model
+// talking with the listings collection
 module.exports = mongoose.model('Sale', saleSchema, 'listings');

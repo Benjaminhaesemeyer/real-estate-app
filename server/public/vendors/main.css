@@ -1,0 +1,56 @@
+header {
+  border-bottom-width: medium;
+  border-color: #909090;
+text-decoration: none;
+}
+
+#logo {
+  text-align: left;
+  color: #9D3B3B;
+  font-size: 40px;
+  font-weight: 700;
+  display: inline;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  float: right;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+ul li {
+  display: inline;
+  float: left;
+  text-decoration: none;
+}
+a.navLink {
+  color: #3f4648;
+  text-decoration: none;
+}
+
+ul li a {
+  color: #3f4648;
+  padding: 20px;
+  display: block;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 700;
+  text-decoration: none;
+
+}
+
+ul li a:hover {
+  color:  #9D3B3B;
+  text-decoration: none;
+}
+
+#forSale {
+  color: #1779ba;
+}
+
+#forRent {
+  color: #1779ba;
+}

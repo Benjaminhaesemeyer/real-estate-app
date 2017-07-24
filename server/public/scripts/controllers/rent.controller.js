@@ -7,7 +7,7 @@ myApp.controller('RentController', ['$http', function($http){
     console.log('getRentals func ran');
     $http.get('/rent').then(function(response){
       console.log(response.data);
-      rc.listing = response.data;
+      rc.rentals = response.data;
     });
   }
 }]);
